@@ -1,0 +1,34 @@
+﻿# Torgue Stickies Buff
+
+# Shotgun Stickies
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_01.Part_SG_Torgue_Magazine_01,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.085,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_02.Part_SG_Torgue_Magazine_02,InventoryAttributeEffects.InventoryAttributeEffects[2].ModifierValue,0,,(BaseValueConstant=0.45,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_03.Part_SG_Torgue_Magazine_03,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.055,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Shotguns/Torgue/_Shared/_Design/Parts/Mag/Part_SG_Torgue_Magazine_04.Part_SG_Torgue_Magazine_04,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.085,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+# Assault Rifle Stickies
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/AssaultRifles/Torgue/_Shared/_Design/Parts/Magazine/Part_AR_TOR_Magazine_01.Part_AR_TOR_Magazine_01,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.085,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/AssaultRifles/Torgue/_Shared/_Design/Parts/Magazine/Part_AR_TOR_Magazine_02.Part_AR_TOR_Magazine_02,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.21,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/AssaultRifles/Torgue/_Shared/_Design/Parts/Magazine/Part_AR_TOR_Magazine_03.Part_AR_TOR_Magazine_03,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.085,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+# Pistol Stickies
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/Parts/Mag/Part_PS_TOR_Mag_01.Part_PS_TOR_Mag_01,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.32,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/Parts/Mag/Part_PS_TOR_Mag_02.Part_PS_TOR_Mag_02,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.38,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+SparkEarlyLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/Pistols/Torgue/_Shared/_Design/Parts/Mag/Part_PS_TOR_Mag_03.Part_PS_TOR_Mag_03,InventoryAttributeEffects.InventoryAttributeEffects[1].ModifierValue,0,,(BaseValueConstant=0.44,DataTableValue=(DataTable=None,RowName=None,ValueName=None),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=3.0)
+
+
+# Buffing Alien SR
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,DAL_Barrel_ETech,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,3.0
+
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,HYP_Barrel_ETech,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,1.8
+
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,MAL_Barrel_ETech,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,2.8
+
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/Barrel/DataTable_Weapon_SR_Barrel_Init.DataTable_Weapon_SR_Barrel_Init,VLA_Barrel_ETech,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,1.85

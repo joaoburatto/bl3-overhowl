@@ -1,0 +1,33 @@
+﻿# SDU CHANGES
+
+# BACKPACK SPACE
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Backpack.Table_SDU_Backpack,Lv19,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerInventoryMax.Att_PlayerInventoryMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=5)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Backpack.Table_SDU_Backpack,Lv10,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerInventoryMax.Att_PlayerInventoryMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=5)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Backpack.Table_SDU_Backpack,Lv11,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerInventoryMax.Att_PlayerInventoryMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=5)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Backpack.Table_SDU_Backpack,Lv12,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerInventoryMax.Att_PlayerInventoryMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=5)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Backpack.Table_SDU_Backpack,Lv13,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Character/Att_PlayerInventoryMax.Att_PlayerInventoryMax"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=8)
+
+
+# SNIPER SDU
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_SniperRifle.Table_SDU_SniperRifle,Lv11,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Ammo/Att_Ammo_SniperRifle_Max.Att_Ammo_SniperRifle_Max"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=370)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_SniperRifle.Table_SDU_SniperRifle,Lv12,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Ammo/Att_Ammo_SniperRifle_Max.Att_Ammo_SniperRifle_Max"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=450)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_SniperRifle.Table_SDU_SniperRifle,Lv13,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Ammo/Att_Ammo_SniperRifle_Max.Att_Ammo_SniperRifle_Max"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=650)
+
+
+# SHOTGUN SDU
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Shotgun.Table_SDU_Shotgun,Lv8,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Ammo/Att_Ammo_Shotgun_Max.Att_Ammo_Shotgun_Max"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=750)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Shotgun.Table_SDU_Shotgun,Lv9,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Ammo/Att_Ammo_Shotgun_Max.Att_Ammo_Shotgun_Max"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=850)
+SparkPatchEntry,(1,2,0,),/Game/Pickups/SDU/Table_SDU_Shotgun.Table_SDU_Shotgun,Lv10,AttributeModifyInfo,0,,(AttributeToModify=GbxAttributeData'"/Game/GameData/Attributes/Ammo/Att_Ammo_Shotgun_Max.Att_Ammo_Shotgun_Max"',ModifierType=PreAdd,ModifierValue=(BaseValueConstant=950)
+
+
+# BASE PISTOL SDU
+SparkPatchEntry,(1,1,0,),/Game/GameData/Weapons/Ammo/ResourcePool_Ammo_Pistol.ResourcePool_Ammo_Pistol,StartingValue.BaseValueConstant,0,,2000
+
+# BASE SMG SDU
+SparkPatchEntry,(1,1,0,),/Game/GameData/Weapons/Ammo/ResourcePool_Ammo_SMG.ResourcePool_Ammo_SMG,BaseMaxValue.BaseValueConstant,0,,4000
+
+# BASE SHOTGUN SDU
+SparkPatchEntry,(1,1,0,),/Game/GameData/Weapons/Ammo/ResourcePool_Ammo_Shotgun.ResourcePool_Ammo_Shotgun,BaseMaxValue.BaseValueConstant,0,,1400
+
+# BASE ASSAULT RIFLE SDU
+SparkPatchEntry,(1,1,0,),/Game/GameData/Weapons/Ammo/ResourcePool_Ammo_AssaultRifle.ResourcePool_Ammo_AssaultRifle,BaseMaxValue.BaseValueConstant,0,,4000

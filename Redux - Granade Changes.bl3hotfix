@@ -1,0 +1,52 @@
+﻿### BASIC GRENADE PART CHANGES ###
+
+# Buff Sticky Grenades to 50%/100%/200% from 25%/100%/200%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Sticky,Primary_1_14_785154D64AF8EEEA12E3F1A63A0B04B6,0,,0.5
+
+# Buff Singularity Grenades to 1.5/2/2.5 seconds from 1/1.5/2.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Singularity,Primary_1_14_785154D64AF8EEEA12E3F1A63A0B04B6,0,,1.5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Singularity,Primary_2_15_2B2EF17E422835A6F855B0B351652BD4,0,,2
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Singularity,Primary_3_16_1E6ADA3B4212CC38E1A4E59C9B29BBE2,0,,2.5
+
+# Buff Roider Grenades to 20%/40%/60% from 20%/35%/50%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Roider,Primary_1_14_785154D64AF8EEEA12E3F1A63A0B04B6,0,,0.2
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Roider,Primary_2_15_2B2EF17E422835A6F855B0B351652BD4,0,,0.4
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Roider,Primary_3_16_1E6ADA3B4212CC38E1A4E59C9B29BBE2,0,,0.6
+
+# Buff Elemental Damage Grenades to 20%/40%/60% from 15%/30%/45%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,ElementalDamage,Secondary_1_17_518A093F48377625749592BEC8275DC6,0,,0.2
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,ElementalDamage,Secondary_2_18_AB999387440701CC75633C917E78FD7B,0,,0.4
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,ElementalDamage,Secondary_3_19_ACA59F5242FD94CFBAB2418760866307,0,,0.6
+
+# Buff Rain Grenades to 3/5/7 from 3/4/5.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Rain,Primary_2_15_2B2EF17E422835A6F855B0B351652BD4,0,,5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Rain,Primary_3_16_1E6ADA3B4212CC38E1A4E59C9B29BBE2,0,,7
+
+# Buff Singularity Radius of Singularity Grenades by 80%.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/Part_Behavior/Singularity/GM_Part_Behavior_09_Singularity.GM_Part_Behavior_09_Singularity:AspectList_GrenadePayloadMethodAspectData.PayloadBehavior_GrenadeBehavior_PayloadSingularity,MinSingularityRadius,0,,1260
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/Part_Behavior/Singularity/GM_Part_Behavior_09_Singularity.GM_Part_Behavior_09_Singularity:AspectList_GrenadePayloadMethodAspectData.PayloadBehavior_GrenadeBehavior_PayloadSingularity,MaxSingularityRadius,0,,2340
+
+# Buff Nuke Grenade Radius from -0.1 to 0.2345.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/GrenadeMods/_Design/Balance/GrenadeMod_Balance_Table.GrenadeMod_Balance_Table,Nuke,Radius_13_9DDB780D4981106D3843E19FAC0856D3,0,,0.2345
+
+### BASIC GRENADE PART SPAWN CHANGES ###
+
+# Purple Grenades - Make them never spawn with the "NONE" part.
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/InvBalance/InvBalD_GrenadeMod_Atlas_04_VeryRare.InvBalD_GrenadeMod_Atlas_04_VeryRare,RuntimePartList.AllParts.AllParts[3].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Atlas_04_VeryRare.PartSet_GrenadeMod_Atlas_04_VeryRare,ActorPartLists.ActorPartLists[4].Parts.Parts[0].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Atlas_04_VeryRare.PartSet_GrenadeMod_Atlas_04_VeryRare,ActorPartLists.ActorPartLists[4].bUseWeightWithMultiplePartSelection,0,,True
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/InvBalance/InvBalD_GrenadeMod_Hyperion_04_VeryRare.InvBalD_GrenadeMod_Hyperion_04_VeryRare,RuntimePartList.AllParts.AllParts[8].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Hyperion_04_VeryRare.PartSet_GrenadeMod_Hyperion_04_VeryRare,ActorPartLists.ActorPartLists[4].Parts.Parts[0].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Hyperion_04_VeryRare.PartSet_GrenadeMod_Hyperion_04_VeryRare,ActorPartLists.ActorPartLists[4].bUseWeightWithMultiplePartSelection,0,,True
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/InvBalance/InvBalD_GrenadeMod_Pangolin_04_VeryRare.InvBalD_GrenadeMod_Pangolin_04_VeryRare,RuntimePartList.AllParts.AllParts[8].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Pangolin_04_VeryRare.PartSet_GrenadeMod_Pangolin_04_VeryRare,ActorPartLists.ActorPartLists[4].Parts.Parts[0].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Pangolin_04_VeryRare.PartSet_GrenadeMod_Pangolin_04_VeryRare,ActorPartLists.ActorPartLists[4].bUseWeightWithMultiplePartSelection,0,,True
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/InvBalance/InvBalD_GrenadeMod_Tediore_04_VeryRare.InvBalD_GrenadeMod_Tediore_04_VeryRare,RuntimePartList.AllParts.AllParts[8].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Tediore_04_VeryRare.PartSet_GrenadeMod_Tediore_04_VeryRare,ActorPartLists.ActorPartLists[4].Parts.Parts[0].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Tediore_04_VeryRare.PartSet_GrenadeMod_Tediore_04_VeryRare,ActorPartLists.ActorPartLists[4].bUseWeightWithMultiplePartSelection,0,,True
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/InvBalance/InvBalD_GrenadeMod_Torgue_04_VeryRare.InvBalD_GrenadeMod_Torgue_04_VeryRare,RuntimePartList.AllParts.AllParts[8].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Torgue_04_VeryRare.PartSet_GrenadeMod_Torgue_04_VeryRare,ActorPartLists.ActorPartLists[4].Parts.Parts[0].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Tediore_04_VeryRare.PartSet_GrenadeMod_Tediore_04_VeryRare,ActorPartLists.ActorPartLists[4].bUseWeightWithMultiplePartSelection,0,,True
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/InvBalance/InvBalD_GrenadeMod_Vladof_04_VeryRare.InvBalD_GrenadeMod_Vladof_04_VeryRare,RuntimePartList.AllParts.AllParts[8].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Vladof_04_VeryRare.PartSet_GrenadeMod_Vladof_04_VeryRare,ActorPartLists.ActorPartLists[4].Parts.Parts[0].Weight,0,,(BaseValueConstant=0,DataTableValue=(DataTable=None,RowName="",ValueName=""),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=0)
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/GrenadeMods/_Design/PartSets/PartSet_GrenadeMod_Vladof_04_VeryRare.PartSet_GrenadeMod_Vladof_04_VeryRare,ActorPartLists.ActorPartLists[4].bUseWeightWithMultiplePartSelection,0,,True

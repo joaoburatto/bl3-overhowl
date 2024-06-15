@@ -1,0 +1,13 @@
+﻿# Increasing Base Melee Damage
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerMeleeDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,145
+
+# Increasing Base Slam Damage
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerGroundSlamDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,375
+
+# Increasing Slide Damage
+SparkPatchEntry,(1,2,0,),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_Damage_GlobalBase.DataTable_Damage_GlobalBase,PlayerSlideDamage,Base_2_5C32556442B4DA4D7EAE1A8610E0A950,0,,85
+
+#Barrel damage
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_IO_Balance.DataTable_IO_Balance,Barrel,Damage_13_560366A1463D4183F137F3AB10204686,0,,1.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_IO_Balance.DataTable_IO_Balance,Barrel_Cloud,Damage_13_560366A1463D4183F137F3AB10204686,0,,1.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/GameData/Balance/HealthAndDamage/DamageBalanceScalers/DataTable_IO_Balance.DataTable_IO_Balance,Barrel_Puddle,Damage_13_560366A1463D4183F137F3AB10204686,0,,1.25

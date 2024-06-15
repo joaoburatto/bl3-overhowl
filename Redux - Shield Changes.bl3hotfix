@@ -1,0 +1,73 @@
+﻿
+### BASIC SHIELD PART CHANGES ###
+
+# Buff Resistance Shield Augment to 30%/60%/90%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Resistance,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,-0.18
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Resistance,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,-1.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Resistance,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,-9
+
+# Buff Spike Shield Augment to 0.3/0.75/1.2 from 0.2/0.4/0.8.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Spike,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.3
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Spike,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.75
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Spike,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,1.2
+
+# Trigger-Happy - Buff percentages to 15%/27.5%/40%, add Burst Fire Delay Reduction.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,TriggerHappy,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.15
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,TriggerHappy,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.275
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,TriggerHappy,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.4
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,TriggerHappy,Secondary_1_62_F1E72F2542B441230290B388F4C494D1,0,,-0.15
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,TriggerHappy,Secondary_2_63_5492A1134C687D18D386DAA6A8FF185E,0,,-0.275
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,TriggerHappy,Secondary_3_64_A3C5C0EC446950EEEEC7E9B3776271B7,0,,-0.4
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Shields/_Design/PartSets/Part_Augment/TriggerHappy/UIStat_Shield_AugDescription_TriggerHappy.UIStat_Shield_AugDescription_TriggerHappy,FormatText.string,0,,[skill]$VALUE$[/skill] improved Fire Rate and Burst Fire Delay while shield is [skill]depleted[/skill].
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Shields/_Design/PartSets/Part_Augment/TriggerHappy/Part_Shield_Aug_TriggerHappy.Part_Shield_Aug_TriggerHappy:ShieldAugmentAspectData_0.Augment_ShieldAugment_Attribute,OnDepletedAttributeModifiers,0,,((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate,ModifierType=Scale,StackValues=((BaseValueConstant=1.06,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=TriggerHappy,ValueName=Primary_1_56_207C26E1450330458D6C38B245C338C5),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=1.06,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=TriggerHappy,ValueName=Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=1.06,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=TriggerHappy,ValueName=Primary_3_58_12AFE8834560F575F1813591F715BCE1),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1))),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_BurstFireDelay.Att_Weapon_BurstFireDelay,ModifierType=Scale,StackValues=((BaseValueConstant=1.06,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=TriggerHappy,ValueName=Secondary_1_62_F1E72F2542B441230290B388F4C494D1),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=1.06,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=TriggerHappy,ValueName=Secondary_2_63_5492A1134C687D18D386DAA6A8FF185E),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=1.06,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=TriggerHappy,ValueName=Secondary_3_64_A3C5C0EC446950EEEEC7E9B3776271B7),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1))))
+
+# Buff Fleet Shield Augment to 15%/32.5%/50%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Fleeting,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.15
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Fleeting,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.325
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Fleeting,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.5
+
+# Buff Adrenaline Shield Augment to 20%/40%/60%, add Repair time.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Adrenaline,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,-0.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Adrenaline,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,-0.68
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Adrenaline,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,-1.5
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Shields/_Design/PartSets/Part_Augment/Adrenaline/Part_Shield_Aug_Adrenaline.Part_Shield_Aug_Adrenaline:AspectList_ShieldAugmentAspectData.Augment_ShieldAugment_Attribute,OnDepletedAttributeModifiers,0,,((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_ReloadTime.Att_Weapon_ReloadTime,ModifierType=Scale,StackValues=((BaseValueConstant=-0.3,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=Adrenaline,ValueName=Primary_1_56_207C26E1450330458D6C38B245C338C5),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=-0.3,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=Adrenaline,ValueName=Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=-0.3,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=Adrenaline,ValueName=Primary_3_58_12AFE8834560F575F1813591F715BCE1),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1))),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_TapedReloadTime.Att_Weapon_TapedReloadTime,ModifierType=Scale,StackValues=((BaseValueConstant=-0.3,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=Adrenaline,ValueName=Primary_1_56_207C26E1450330458D6C38B245C338C5),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=-0.3,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=Adrenaline,ValueName=Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1),(BaseValueConstant=-0.3,DataTableValue=(DataTable=/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RowName=Adrenaline,ValueName=Primary_3_58_12AFE8834560F575F1813591F715BCE1),BaseValueAttribute=None,AttributeInitializer=None,BaseValueScale=1))))
+
+# Buff Projected Shield Augment to 25%/50%/75%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Projected,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.75
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Projected,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.50
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Projected,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.25
+
+# Buff Reflect Shield Augment to 15%/30%/50%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Reflection,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.15
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Reflection,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.30
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Reflection,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.5
+
+# Buff Adaptive Shield Augment to 20%/35%/50%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Adaptive,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,-0.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Adaptive,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,-0.55
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Adaptive,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,-1
+
+# Buff Shield-Booster Shield Augment (Percentage restored) to 20%/30%/40%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Booster,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.2
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Booster,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.3
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Booster,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.4
+
+# Buff Health-Booster Augment to 15%/33%/50%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,HealthCharge,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.15
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,HealthCharge,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.33
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,HealthCharge,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.5
+
+# Buff Fortify-Booster Shield Augment to 20%/35%/50%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,FortifyCharge,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,0.8
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,FortifyCharge,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,0.65
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,FortifyCharge,Primary_3_58_12AFE8834560F575F1813591F715BCE1,0,,0.5
+
+# Buff Recharge Rate Shield Augment to 25%/50%/75%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RechargeRate,RechargeRate_27_8A47A06C426C0A244C25068F9B363075,0,,0.25
+
+# Buff Recharge Delay Shield Augment to 33%/50%/60%.
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,RechargeDelay,RechargeDelay_28_56D5148C458B7E0E4C3DEB8437889B8E,0,,-0.5
+
+# Buff Nova Damage to 1.25/1.875/2.5 from 0.7/1.5/2.5
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Nova,Primary_1_56_207C26E1450330458D6C38B245C338C5,0,,1.25
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Shields/_Design/Balance/ShieldAug_BalanceData.ShieldAug_BalanceData,Nova,Primary_2_57_B75F9DB543F7963A15ECCBAC5D036A8E,0,,1.875
