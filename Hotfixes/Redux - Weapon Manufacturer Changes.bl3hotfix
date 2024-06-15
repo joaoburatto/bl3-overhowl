@@ -23,14 +23,14 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table
 # Manufacturer Fire Rate - Set Fire Rate to 40% (at level 72) across all manufacturers.
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,ATLAS_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,ATLAS_FireRate,Offset,0,,(BaseValueConstant=0.03,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,CoV_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,DAHL_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Hyperion_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Jakobs_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Maliwan_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Tediore_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Torgue_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Vladof_FireRate,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,CoV_FireRate,Multiplier,0,,(BaseValueConstant=0.0085,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,DAHL_FireRate,Multiplier,0,,(BaseValueConstant=0.0075,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Hyperion_FireRate,Multiplier,0,,(BaseValueConstant=0.0075,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Jakobs_FireRate,Multiplier,0,,(BaseValueConstant=0.005,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Maliwan_FireRate,Multiplier,0,,(BaseValueConstant=0.0065,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Tediore_FireRate,Multiplier,0,,(BaseValueConstant=0.0045,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Torgue_FireRate,Multiplier,0,,(BaseValueConstant=0.005,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Vladof_FireRate,Multiplier,0,,(BaseValueConstant=0.005,BaseValueScale=1.000000)
 
 # Manufacturer Reload Speed - Increase Reload Speed to 0.0075 from 0.005 across all manufacturers.
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,ATLAS_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)

@@ -2,7 +2,7 @@
 # Buffing Tediore damage
 
 # Tediore
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Tediore,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,3.8
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Tediore,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,2.8
 
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Tediore,CritDamageScale_63_CD26C16D40CD2DDF676270956F04A694,0,,1.0
 
