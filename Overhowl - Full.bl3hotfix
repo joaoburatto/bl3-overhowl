@@ -15087,7 +15087,7 @@ SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Ga
 
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,CoV,PutDownTimeScale_69_AA52E4FF4CF2E2BF8CEAC2B9E54CB3DA,0,,0.5
 
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,CoV,FirerateScale_29_F95FBBA045F4F1899B3F7AB7A2CF0F22,0,,5.0
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,CoV,FirerateScale_29_F95FBBA045F4F1899B3F7AB7A2CF0F22,0,,1.0
 
 
 ﻿
@@ -15096,7 +15096,7 @@ SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/Ga
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_DamageScale.DataTable_Weapon_DamageScale,SMG,DAHL_59_150C89A04BB4FCF0061CAC86E39E1A39,0,,1.75
 
 # Increase Dahl SMG Magazine Size and Fire Rate by 40%
-SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/Parts/Body/Part_SM_DAL_Body.Part_SM_DAL_Body,WeaponUseModeAttributeEffects.WeaponUseModeAttributeEffects,0,,((UseMode=(EWeaponUseMode=EWeaponUseMode_MAX),UseModeBitmask=3,AttributeEffects=((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_MaxLoadedAmmo.Att_Weapon_MaxLoadedAmmo,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.4,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.8,BaseValueScale=1.1)))))
+SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/Parts/Body/Part_SM_DAL_Body.Part_SM_DAL_Body,WeaponUseModeAttributeEffects.WeaponUseModeAttributeEffects,0,,((UseMode=(EWeaponUseMode=EWeaponUseMode_MAX),UseModeBitmask=3,AttributeEffects=((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_MaxLoadedAmmo.Att_Weapon_MaxLoadedAmmo,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.4,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.4,BaseValueScale=1)))))
 
 ﻿# Weapon crit changes
 SparkPatchEntry,(1,2,0,),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Base_Data.DataTable_Weapon_Base_Data,SniperRifle,CritDamageScale_61_5876F7BA4086CE2615C39F84E7409B3C,0,,3
