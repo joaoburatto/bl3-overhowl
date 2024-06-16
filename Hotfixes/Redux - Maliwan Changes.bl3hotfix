@@ -4,11 +4,11 @@
 
 # Buffing Maliwan Status Effects
 
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Maliwan,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,1.25
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Maliwan,DamageScale_36_150C89A04BB4FCF0061CAC86E39E1A39,0,,2.25
 
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Maliwan,ElementalChanceScale_73_C4EC9BCE44E98744632F78844B99DA83,0,,2.5
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Maliwan,ElementalChanceScale_73_C4EC9BCE44E98744632F78844B99DA83,0,,3.5
 
-SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Maliwan,ElementalDamageMultiplierScale_80_D457807F45510F5C3D23D69C7D7C7964,0,,1.5
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_Manufacturer_Base_Data.DataTable_Weapon_Manufacturer_Base_Data,Maliwan,ElementalDamageMultiplierScale_80_D457807F45510F5C3D23D69C7D7C7964,0,,4.85
 
 # Maliwan Shotgun
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_DamageScale.DataTable_Weapon_DamageScale,Shotgun,Maliwan_76_93DF9FBB4DB223F6D5697180435918B2,0,,2.35
