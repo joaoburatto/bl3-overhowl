@@ -6,7 +6,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Jakobs_Damage,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Maliwan_Damage,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Tediore_Damage,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Torgue_Damage,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Torgue_Damage,Multiplier,0,,(BaseValueConstant=0.0075,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Vladof_Damage,Multiplier,0,,(BaseValueConstant=0.006,BaseValueScale=1.000000)
 
 # Manufacturer Crit - Reduce Critical Hit Damage Multiplier to 0.004 from 0.00875.
@@ -35,7 +35,7 @@ SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table
 # Manufacturer Reload Speed - Increase Reload Speed to 0.0075 from 0.005 across all manufacturers.
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,ATLAS_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,CoV_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)
-SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,DAHL_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)
+SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,DAHL_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00925,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Hyperion_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Jakobs_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)
 SparkLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/ClassMods/_Design/Balance/Table_ClassMod_Stats2.Table_ClassMod_Stats2,Maliwan_ReloadSpeed,Multiplier,0,,(BaseValueConstant=0.00725,BaseValueScale=1.000000)
