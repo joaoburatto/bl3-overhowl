@@ -3,5 +3,9 @@
 # Buffing Dahl SMG damage
 SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_DamageScale.DataTable_Weapon_DamageScale,SMG,DAHL_59_150C89A04BB4FCF0061CAC86E39E1A39,0,,1.75
 
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_DamageScale.DataTable_Weapon_DamageScale,AssaultRifle,DAHL_59_150C89A04BB4FCF0061CAC86E39E1A39,0,,2.5
+
+SparkEarlyLevelPatchEntry,(1,2,0,MatchAll),/Game/Gear/Weapons/_Shared/_Design/GameplayAttributes/Weapon_Initialization/DataTable_Weapon_DamageScale.DataTable_Weapon_DamageScale,Sniper,DAHL_59_150C89A04BB4FCF0061CAC86E39E1A39,0,,7.0
+
 # Increase Dahl SMG Magazine Size and Fire Rate by 40%
 SparkLevelPatchEntry,(1,1,0,MatchAll),/Game/Gear/Weapons/SMGs/Dahl/_Shared/_Design/Parts/Body/Part_SM_DAL_Body.Part_SM_DAL_Body,WeaponUseModeAttributeEffects.WeaponUseModeAttributeEffects,0,,((UseMode=(EWeaponUseMode=EWeaponUseMode_MAX),UseModeBitmask=3,AttributeEffects=((AttributeToModify=/Game/GameData/Weapons/Att_Weapon_MaxLoadedAmmo.Att_Weapon_MaxLoadedAmmo,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.4,BaseValueScale=1)),(AttributeToModify=/Game/GameData/Weapons/Att_Weapon_FireRate.Att_Weapon_FireRate,ModifierType=ScaleSimple,ModifierValue=(BaseValueConstant=1.4,BaseValueScale=1)))))
